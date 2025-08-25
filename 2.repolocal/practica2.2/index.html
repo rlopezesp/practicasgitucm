@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../../2.%20repolocal/practica2.3/">
+        <link rel="prev" href="../practica2.1/">
       
+      
+        <link rel="next" href="../practica2.3/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Práctica 3.1 - Fundamentos de Git y GitHub. PRÁCTICAS</title>
+        <title>Práctica 2.2 - Fundamentos de Git y GitHub. PRÁCTICAS</title>
       
     
     
@@ -68,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#practica-31-crear-primer-repositorio-local" class="md-skip">
+        <a href="#practica-22-recuperar-versiones-anteriores" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -104,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Práctica 3.1
+              Práctica 2.2
             
           </span>
         </div>
@@ -219,18 +221,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -246,7 +250,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Repositorios locales
@@ -260,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20repolocal/practica2.1/" class="md-nav__link">
+      <a href="../practica2.1/" class="md-nav__link">
         
   
   
@@ -280,10 +284,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../2.%20repolocal/practica2.2/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Práctica 2.2
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -294,6 +320,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#crear-repositorio-y-archivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear repositorio y archivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confirmar-varias-versiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confirmar varias versiones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modificar-el-fichero-y-restaurar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modificar el fichero y restaurar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recuperar-versiones-anteriores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recuperar versiones anteriores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recuperar-ultima-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recuperar última versión
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -306,7 +397,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../2.%20repolocal/practica2.3/" class="md-nav__link">
+      <a href="../practica2.3/" class="md-nav__link">
         
   
   
@@ -333,20 +424,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -362,7 +451,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Repositorios remotos
@@ -373,19 +462,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../3.reporemoto/practica3.1/" class="md-nav__link">
         
   
   
@@ -396,7 +476,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -429,6 +508,59 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#crear-repositorio-y-archivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear repositorio y archivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confirmar-varias-versiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confirmar varias versiones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modificar-el-fichero-y-restaurar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modificar el fichero y restaurar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recuperar-versiones-anteriores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recuperar versiones anteriores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recuperar-ultima-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recuperar última versión
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -443,13 +575,44 @@
 
 
 
-<h1 id="practica-31-crear-primer-repositorio-local">Práctica 3.1 - Crear primer repositorio Local</h1>
+<h1 id="practica-22-recuperar-versiones-anteriores">Práctica 2.2 - Recuperar versiones anteriores</h1>
 <p>Para la realización de esta práctica tendrás que realizar los siguientes pasos.</p>
+<h3 id="crear-repositorio-y-archivo">Crear repositorio y archivo</h3>
 <ol>
-<li>Abri la aplicación Git Bash</li>
-<li>Comprueba que hayas configurado correctamente tu usuario y correo en Git</li>
-<li>Entra en la carpeta donde crearás tus repositorios</li>
-<li>Crea un nuevo repositorio llamado "repo<tunombre>"</li>
+<li>Crea un nuevo repositorio llamado "repo2<tunombre>"</li>
+<li>Crea, dentro de tu nuevo repo, un nuevo archivo vacío llamado "saludo.txt"
+<code>touch &lt;nombre_archivo&gt;</code></li>
+</ol>
+<h3 id="confirmar-varias-versiones">Confirmar varias versiones</h3>
+<ol>
+<li>Añade el archivo al staging area</li>
+<li>Confirma los cambios de tu repositorio</li>
+<li>Edita el contenido del archivo y escribe un saludo
+<code>nano &lt;nombre_archivo&gt;</code></li>
+<li>Vuelve a añadir el archivo al staging area y confirma los cambios (utiliza un solo comando)</li>
+<li>Vuelve el contenido del archivo y modifica el saludo</li>
+<li>Vuelve a añadir el archivo al staging area y confirma los cambios (utiliza un solo comando)</li>
+<li>Muestra el historial de tu respositorio</li>
+</ol>
+<h3 id="modificar-el-fichero-y-restaurar">Modificar el fichero y restaurar</h3>
+<ol>
+<li>Vuelve el contenido del archivo y modifica el saludo</li>
+<li>Comprueba las diferencias de tu archivo con la última versión subida al repositorio</li>
+<li>Restaura la última versión subida al repositorio</li>
+<li>Comprueba el contenido del archivo
+<code>cat &lt;nombre_archivo&gt;</code></li>
+</ol>
+<h3 id="recuperar-versiones-anteriores">Recuperar versiones anteriores</h3>
+<ol>
+<li>Muestra el historial de tu respositorio (en una sola linea)</li>
+<li>Recupera la versión del segundo commit</li>
+<li>Comprueba las diferencias de tu archivo con la última versión subida al repositorio</li>
+<li>Comprueba el contenido del archivo</li>
+</ol>
+<h3 id="recuperar-ultima-version">Recuperar última versión</h3>
+<ol>
+<li>Recupera la última versión del archivo</li>
+<li>Comprueba las diferencias de tu archivo con la última versión subida al repositorio</li>
 </ol>
 
 
