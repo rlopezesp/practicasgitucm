@@ -9,8 +9,6 @@
       
       
       
-        <link rel="prev" href="../../2.repolocal/practica2.3/">
-      
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -18,7 +16,7 @@
     
     
       
-        <title>Práctica 3.1 - Fundamentos de Git y GitHub. PRÁCTICAS</title>
+        <title>Práctica 3.3 - Clonar repositorio remoto - Fundamentos de Git y GitHub. PRÁCTICAS</title>
       
     
     
@@ -68,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#practica-31-crear-tu-primer-repositorio-remoto" class="md-skip">
+        <a href="#practica-33-clonar-repositorio-remoto" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -104,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Práctica 3.1
+              Práctica 3.3 - Clonar repositorio remoto
             
           </span>
         </div>
@@ -333,20 +331,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -362,7 +358,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Repositorios remotos
@@ -373,32 +369,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Práctica 3.1
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../practica3.1/" class="md-nav__link">
         
   
   
@@ -409,62 +383,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#crear-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Crear repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enlaza-tu-repositorio-local-con-tu-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enlaza tu repositorio local con tu repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#envia-cambios-al-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Envía cambios al repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recuperar-cambios-del-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Recuperar cambios del repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -513,9 +431,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#enlaza-tu-repositorio-local-con-tu-repositorio-remoto" class="md-nav__link">
+  <a href="#clona-tu-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
-      Enlaza tu repositorio local con tu repositorio remoto
+      Clona tu repositorio remoto
     </span>
   </a>
   
@@ -525,15 +443,6 @@
   <a href="#envia-cambios-al-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
       Envía cambios al repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recuperar-cambios-del-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Recuperar cambios del repositorio remoto
     </span>
   </a>
   
@@ -555,31 +464,35 @@
 
 
 
-<h1 id="practica-31-crear-tu-primer-repositorio-remoto">Práctica 3.1 - Crear tu primer repositorio remoto</h1>
+<h1 id="practica-33-clonar-repositorio-remoto">Práctica 3.3 - Clonar repositorio remoto</h1>
 <p>Para la realización de esta práctica tendrás que realizar los siguientes pasos.</p>
 <h3 id="crear-repositorio-remoto">Crear repositorio remoto</h3>
 <ol>
-<li>Abre tu cuenta de GitHub</li>
-<li>Crea un nuevo repositorio llamado "repo1<tunombre>"</li>
-<li>Copia la URL de tu nuevo repositorio remoto</li>
+<li>Crea un nuevo repositorio en GitHub llamado "repo4<tunombre>"
+* Marca el check Add README</li>
+<li>Edita el fichero README.md y escribe algún mensaje</li>
+<li>Realiza un commit de los cambios</li>
+<li>Copia la URL de tu nuevo repositorio remoto
+* Botón verde de la página del repositorio</li>
 </ol>
-<h3 id="enlaza-tu-repositorio-local-con-tu-repositorio-remoto">Enlaza tu repositorio local con tu repositorio remoto</h3>
-<ol start="4">
-<li>Entra en la carpeta de tu repositorio local "repo1<tunombre>"</li>
-<li>Enlaza tu repositorio local con el remoto utilizando su URL</li>
+<h3 id="clona-tu-repositorio-remoto">Clona tu repositorio remoto</h3>
+<ol start="5">
+<li>Abre la aplicación Git Bash</li>
+<li>Entra en la carpeta donde almacenas tus repositorios</li>
+<li>Clona tu repositorio remoto utilizando su URL</li>
+<li>Entra en la carpeta de tu nuevo repositorio "repo4<tunombre>"</li>
+<li>Comprueba que puedes ver el archivo README.md</li>
+<li>Muestra el contenido de dicho archivo
+<code>cat &lt;nombre_archivo&gt;</code></li>
+<li>Muestra el historial de tu repositorio</li>
 </ol>
 <h3 id="envia-cambios-al-repositorio-remoto">Envía cambios al repositorio remoto</h3>
-<ol start="6">
-<li>Sube los cambios al repositorio remoto (no olvides el parámetro -u)</li>
-<li>Muestra el historial de tu repositorio</li>
+<ol start="12">
+<li>Edita el fichero README.md</li>
+<li>Vuelve a añadir el archivo al staging area y confirma los cambios (utiliza un solo comando)</li>
+<li>Sube los cambios al repositorio remoto</li>
 <li>Entra en tu repositorio remoto de GitHub y comprueba que se hayan subido los cambios</li>
-</ol>
-<h3 id="recuperar-cambios-del-repositorio-remoto">Recuperar cambios del repositorio remoto</h3>
-<ol start="9">
-<li>Desde tu repositorio de GitHub edita el fichero "mensaje.txt" y realiza un commit</li>
-<li>Vuelve a la carpeta de tu repositorio y recupera los cambios</li>
-<li>Muestra el contenido del archivo<br />
-<code>cat &lt;nombre_archivo&gt;</code></li>
+<li>Desde tu repositorio de GitHub muestra el historial de commits</li>
 </ol>
 
 
