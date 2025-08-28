@@ -9,10 +9,6 @@
       
       
       
-        <link rel="prev" href="../../2.repolocal/practica2.3/">
-      
-      
-        <link rel="next" href="../practica3.2/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +16,7 @@
     
     
       
-        <title>Práctica 3.1 - Fundamentos de Git y GitHub. PRÁCTICAS</title>
+        <title>Práctica 5.1 - Crear un conflicto en main - Fundamentos de Git y GitHub. PRÁCTICAS</title>
       
     
     
@@ -70,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#practica-31-crear-tu-primer-repositorio-remoto" class="md-skip">
+        <a href="#practica-51-crear-un-conflicto-en-main" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -106,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Práctica 3.1
+              Práctica 5.1 - Crear un conflicto en main
             
           </span>
         </div>
@@ -335,20 +331,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -364,7 +358,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Repositorios remotos
@@ -375,32 +369,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Práctica 3.1
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../3.reporemoto/practica3.1/" class="md-nav__link">
         
   
   
@@ -411,62 +383,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#crear-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Crear repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enlaza-tu-repositorio-local-con-tu-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enlaza tu repositorio local con tu repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enviar-cambios-al-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Envíar cambios al repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recuperar-cambios-del-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Recuperar cambios del repositorio remoto
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -479,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../practica3.2/" class="md-nav__link">
+      <a href="../../3.reporemoto/practica3.2/" class="md-nav__link">
         
   
   
@@ -502,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../practica3.3/" class="md-nav__link">
+      <a href="../../3.reporemoto/practica3.3/" class="md-nav__link">
         
   
   
@@ -917,36 +833,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#crear-repositorio-remoto" class="md-nav__link">
+  <a href="#crear-repositorio-local-y-remoto" class="md-nav__link">
     <span class="md-ellipsis">
-      Crear repositorio remoto
+      Crear repositorio local y remoto
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#enlaza-tu-repositorio-local-con-tu-repositorio-remoto" class="md-nav__link">
+  <a href="#modificar-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
-      Enlaza tu repositorio local con tu repositorio remoto
+      Modificar repositorio remoto
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#enviar-cambios-al-repositorio-remoto" class="md-nav__link">
+  <a href="#modificar-repositorio-local" class="md-nav__link">
     <span class="md-ellipsis">
-      Envíar cambios al repositorio remoto
+      Modificar repositorio local
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#recuperar-cambios-del-repositorio-remoto" class="md-nav__link">
+  <a href="#actualizar-repositorio-local" class="md-nav__link">
     <span class="md-ellipsis">
-      Recuperar cambios del repositorio remoto
+      Actualizar repositorio local
     </span>
   </a>
   
@@ -968,34 +884,40 @@
 
 
 
-<h1 id="practica-31-crear-tu-primer-repositorio-remoto">Práctica 3.1 - Crear tu primer repositorio remoto</h1>
+<h1 id="practica-51-crear-un-conflicto-en-main">Práctica 5.1 - Crear un conflicto en main</h1>
 <p>Para la realización de esta práctica tendrás que seguir los siguientes pasos.</p>
-<h3 id="crear-repositorio-remoto">Crear repositorio remoto</h3>
+<h3 id="crear-repositorio-local-y-remoto">Crear repositorio local y remoto</h3>
 <ol>
-<li>Abre tu cuenta de GitHub</li>
-<li>Crea un nuevo repositorio llamado "repo1<tunombre>"</li>
-<li>Copia la URL de tu nuevo repositorio remoto</li>
+<li>Dentro de tu carpeta de repositorios, crea un carpeta llamada "repo6<tunombre>"</li>
+<li>Abre la carpeta anterior desde Visual Studio Code</li>
+<li>Crea un archivo llamado "README.md"</li>
+<li>Escribe dos líneas de texto en el archivo anterior y guarda los cambios</li>
+<li>Inicializa el repositorio</li>
+<li>Realiza un commit de los cambios</li>
+<li>Desde Visual Studio Code crear un repositorio remoto asociado al local</li>
 </ol>
-<h3 id="enlaza-tu-repositorio-local-con-tu-repositorio-remoto">Enlaza tu repositorio local con tu repositorio remoto</h3>
-<ol start="4">
-<li>Abre la aplicación Git Bash</li>
-<li>Entra en la carpeta de tu repositorio local "repo1<tunombre>"</li>
-<li>Enlaza tu repositorio local con el remoto utilizando su URL</li>
-</ol>
-<h3 id="enviar-cambios-al-repositorio-remoto">Envíar cambios al repositorio remoto</h3>
+<h3 id="modificar-repositorio-remoto">Modificar repositorio remoto</h3>
 <ol start="7">
-<li>Sube los cambios al repositorio remoto (no olvides el parámetro -u)</li>
-<li>Muestra el historial de tu repositorio</li>
-<li>Entra en tu repositorio de GitHub y comprueba que se hayan subido los cambios</li>
+<li>Entra en tu repositorio de GitHub</li>
+<li>Modifica la primera línea del fichero README.md</li>
+<li>Realiza un commit de los cambios</li>
 </ol>
-<h3 id="recuperar-cambios-del-repositorio-remoto">Recuperar cambios del repositorio remoto</h3>
-<ol start="10">
-<li>Desde tu repositorio de GitHub edita el fichero "mensaje.txt" y realiza un commit</li>
-<li>Vuelve a la carpeta de tu repositorio en Git Bash</li>
-<li>Recupera los cambios del repositorio r</li>
-<li>Muestra el historial de tu repositorio</li>
-<li>Muestra el contenido del archivo "mensaje.txt"<br />
-<code>cat &lt;nombre_archivo&gt;</code></li>
+<h3 id="modificar-repositorio-local">Modificar repositorio local</h3>
+<ol start="9">
+<li>Vuelve a Visual Studio Code<br />
+<strong>No hagas un pull de tu repositorio remoto</strong></li>
+<li>Modifica la segunda línea del fichero README.md</li>
+<li>Realiza un commit de tu repositorio local</li>
+<li>Realiza un fetch de tu proyecto y comprueba el historial desde Git Graph</li>
+<li>Intenta hacer un push al repositorio remoto</li>
+</ol>
+<h3 id="actualizar-repositorio-local">Actualizar repositorio local</h3>
+<ol start="14">
+<li>Realiza un pull del repositorio remoto</li>
+<li>Resuelve el conflicto utilizando el "Merge editor"</li>
+<li>Observa la descripción propuesta y realiza un commit de los cambios</li>
+<li>Sube los cambios al repositorio remoto (push)</li>
+<li>Comprueba el historial desde Git Graph</li>
 </ol>
 
 
